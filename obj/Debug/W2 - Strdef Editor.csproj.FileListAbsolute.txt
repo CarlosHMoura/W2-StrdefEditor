@@ -1,0 +1,16 @@
+C:\Servidor WYD2\Release\Common\W2 - Strdef\W2 - Strdef Editor\bin\Debug\W2 - Strdef Editor.exe
+C:\Servidor WYD2\Release\Common\W2 - Strdef\W2 - Strdef Editor\bin\Debug\W2 - Strdef Editor.pdb
+C:\Servidor WYD2\Release\Common\W2 - Strdef\W2 - Strdef Editor\obj\Debug\W2 - Strdef Editor.csprojAssemblyReference.cache
+C:\Servidor WYD2\Release\Common\W2 - Strdef\W2 - Strdef Editor\obj\Debug\W2___Strdef_Editor.W2___SkillData_Editor.Properties.Resources.resources
+C:\Servidor WYD2\Release\Common\W2 - Strdef\W2 - Strdef Editor\obj\Debug\W2___Strdef_Editor.Window.resources
+C:\Servidor WYD2\Release\Common\W2 - Strdef\W2 - Strdef Editor\obj\Debug\W2 - Strdef Editor.csproj.GenerateResource.cache
+C:\Servidor WYD2\Release\Common\W2 - Strdef\W2 - Strdef Editor\obj\Debug\W2 - Strdef Editor.exe
+C:\Servidor WYD2\Release\Common\W2 - Strdef\W2 - Strdef Editor\obj\Debug\W2 - Strdef Editor.pdb
+C:\Users\Usuario\Desktop\Src\W2StrdefEditor\bin\Debug\W2 - Strdef Editor.exe
+C:\Users\Usuario\Desktop\Src\W2StrdefEditor\bin\Debug\W2 - Strdef Editor.pdb
+C:\Users\Usuario\Desktop\Src\W2StrdefEditor\obj\Debug\W2 - Strdef Editor.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\Src\W2StrdefEditor\obj\Debug\W2___Strdef_Editor.W2___SkillData_Editor.Properties.Resources.resources
+C:\Users\Usuario\Desktop\Src\W2StrdefEditor\obj\Debug\W2___Strdef_Editor.Window.resources
+C:\Users\Usuario\Desktop\Src\W2StrdefEditor\obj\Debug\W2 - Strdef Editor.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\Src\W2StrdefEditor\obj\Debug\W2 - Strdef Editor.exe
+C:\Users\Usuario\Desktop\Src\W2StrdefEditor\obj\Debug\W2 - Strdef Editor.pdb
