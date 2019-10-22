@@ -60,23 +60,7 @@ namespace W2___Strdef_Editor.Funções
                 ReshowDelay = 500
             }.SetToolTip(Controler, Info);
         }
-
-        public static byte[] ReadKeyList()
-        {
-            try
-            {
-                if (File.Exists("./Keys.dat"))
-                    return File.ReadAllBytes("./Keys.dat");
-                int num = (int)MessageBox.Show("Keys.dat não foi encontrado", "W2 - Strdef Editor", MessageBoxButtons.OKCancel, MessageBoxIcon.Asterisk);
-                return (byte[])null;
-            }
-            catch (Exception ex)
-            {
-                int num = (int)MessageBox.Show(ex.Message + (object)Functions.pKeyList.Length);
-                return (byte[])null;
-            }
-        }
-
+         
         public static bool ReadStrdef()
         {
             try
