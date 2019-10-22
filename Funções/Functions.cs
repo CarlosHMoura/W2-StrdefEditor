@@ -32,10 +32,12 @@ namespace W2___Strdef_Editor.Funções
                 Marshal.StructureToPtr<BinaryType>(Strdef, num, false);
                 Marshal.Copy(num, numArray, 0, Marshal.SizeOf<BinaryType>(Strdef));
                 Marshal.FreeHGlobal(num);
-                byte[] array = Functions.ReadKeyList();
-                Array.Resize<byte>(ref array, array.Length + 1);
-                for (int index = 0; index < numArray.Length; ++index)
-                    numArray[index] ^= array[index & array.Length - 1];
+
+           
+                    for (int index = 0; index < numArray.Length; ++index)
+                        numArray[index] ^= 0x5A;
+               
+
                 File.WriteAllBytes("strdef.bin", numArray);
             }
             catch (Exception ex)
@@ -81,19 +83,12 @@ namespace W2___Strdef_Editor.Funções
             {
                 if (File.Exists("./Strdef.bin"))
                 {
+
                     byte[] rawData = File.ReadAllBytes("./Strdef.bin");
-                    if (rawData[rawData.Length - 6] != (byte)90)
-                    {
-                        Functions.pKeyList = Functions.ReadKeyList();
-                        Array.Resize<byte>(ref Functions.pKeyList, Functions.pKeyList.Length + 1);
-                        for (int index = 0; index < rawData.Length; ++index)
-                            rawData[index] ^= Functions.pKeyList[index & Functions.pKeyList.Length - 1];
-                    }
-                    else
-                    {
-                        for (int index = 0; index < rawData.Length; ++index)
-                            rawData[index] ^= (byte)90;
-                    }
+
+                    for (int index = 0; index < rawData.Length; ++index)
+                        rawData[index] ^= 0x5A;
+
                     External.g_pStrdef = Functions.LoadFile<Structs.STRUCT_STRDEF>(rawData);
                     return true;
                 }
