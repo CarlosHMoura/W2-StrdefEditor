@@ -1,9 +1,4 @@
-﻿// Decompiled with JetBrains decompiler
-// Type: W2___Strdef_Editor.Window
-// Assembly: W2 - Strdef Editor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-// MVID: AE963E1F-308E-4C9E-BD92-0EAB0FF111F3
-// Assembly location: C:\Servidor WYD2\Release\Common\W2 - Strdef Editor.exe
-
+﻿ 
 using System;
 using System.ComponentModel;
 using System.Diagnostics;
